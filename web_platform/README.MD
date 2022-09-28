@@ -10,9 +10,13 @@ Need to have an account for this you must use your email and password.
 
 **General Information**
 
+Next, there is a section where you will find all the general information i.e. the number of quarters, the area, the type of strain and the amount in tons per hectare being planted, about the fields you have associated to our platform.
+
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/general_info.png)
 
 **Create a New Field**
+
+In addition, you can add a new field by selecting the area in which you want to farm. You must add a name to your new field, upload a file (.KMZ) with map locations and coordinates. 
 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/new_field.png)
 
