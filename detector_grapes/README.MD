@@ -8,7 +8,7 @@ Mask R-CNN with a ResNet-50 grape detector based on detectron2
 for berries detection in bunches of grapes images, allows the 
 detection of circular, oval and elongated grapes shapes.
 
-![](imgs\brunch_inference.jpeg)
+![](C:\Users\Dell\Documents\GitHub\AustralFalcon_grapes\imgs\brunch_inference.jpeg)
 
 # Usage - Grapes detector
 
