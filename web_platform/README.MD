@@ -30,7 +30,6 @@ Need to have an account for this you must use your email and password.
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field_performance.png)
 
  **Climatic Conditions**
- 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/weather_conditions.png)
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/weather_conditions2.png)
 
@@ -39,10 +38,10 @@ Need to have an account for this you must use your email and password.
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/img_multiespectral.png)
 
 **Berry Count**
-
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/count.png)
 
 **Crop Maps**
 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field.png)
+
 
