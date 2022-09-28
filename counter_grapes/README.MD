@@ -1,14 +1,14 @@
 
 ![Logo](https://www.australfalcon.com/wp-content/uploads/2020/04/australfalcon-logo_83110dbd991fa114543f627f8df424f4.png)
 
-
 # Grapes Detector
 
 Mask R-CNN with a ResNet-50 grape detector based on detectron2 
 for berries detection in bunches of grapes images, allows the 
 detection of circular, oval and elongated grapes shapes.
 
-![](C:/Users/Dell/Downloads/Delano_001.jpeg)
+![Delano_001](https://user-images.githubusercontent.com/107589558/192680547-cec28186-bc9c-4f7b-9409-b3e63a9a193e.jpeg)
+
 
 # Usage - Grapes detector
 
