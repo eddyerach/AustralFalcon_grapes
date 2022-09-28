@@ -8,7 +8,7 @@ Mask R-CNN with a ResNet-50 grape detector based on detectron2
 for berries detection in bunches of grapes images, allows the 
 detection of circular, oval and elongated grapes shapes.
 
-![](../../../../Downloads/Delano_001.jpeg)
+![](C:/Users/Dell/Downloads/Delano_001.jpeg)
 
 # Usage - Grapes detector
 
@@ -25,7 +25,7 @@ berries the polygon region shape. Once the labeling was finished, a python code 
 ### Data augmentation
 The rotations were from 45º to -45º, each 5º a rotation was made for a total of 19 rotations of the dataset.
 
-![](../../../../Downloads/rotaciones.png)
+![](C:/Users/Dell/Downloads/rotaciones.png)
 
 ## Training
 Parameters and values used to train the object detector model were the following:
@@ -41,7 +41,7 @@ Parameters and values used to train the object detector model were the following
 ## Evaluation
 Due to the large number of berries per bunch, it was decided to contrast the number of labels vs. the number of detections, since there are labels and detections that overlap.
 
-![](../../../../Downloads/chart.png)
+![](C:/Users/Dell/Downloads/chart.png)
 
 |                               | Detection      | Regression    |
 | :--------                     | :-------       | :------------ |
