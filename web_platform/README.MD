@@ -67,3 +67,4 @@ Finally, another benefit of the platform is that based on an image or video, it 
 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field.png)
 
+
