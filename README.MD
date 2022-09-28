@@ -2,7 +2,7 @@
 # Austral Falcon: Deep learning for vineyard cultivation
 Code for the entire development cycle of Deep Learning models focused on grape cultivation.
 The implementation is based on instance segmentation and on Facebook's Detectron2 framework. It is able to detect bunches and count them and also to detect grapes and count them.
-![](https://neurohive.io/wp-content/uploads/2019/10/rsz_screenshot_from_2019-10-13_23-49-51.png)
+![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg?raw=true)
 ### Why should use Detectron2? 
 - Detectron2 supports all common computer vision tasks such as classification, semantic segmentation, instance segmentation, object detection, and pose estimation.
 - Detectron2 is rapid, flexible, extensible, and able to provide fast training on single or multiple GPU servers.
