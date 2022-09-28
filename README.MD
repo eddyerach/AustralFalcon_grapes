@@ -5,12 +5,8 @@ The implementation is based on instance segmentation and on Facebook's Detectron
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg?raw=true)
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg?raw=true)
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10.gif?raw=true)
-### Why should use Detectron2? 
-- Detectron2 supports all common computer vision tasks such as classification, semantic segmentation, instance segmentation, object detection, and pose estimation.
-- Detectron2 is rapid, flexible, extensible, and able to provide fast training on single or multiple GPU servers.
-- Detectron2 can be implemented in many state-of-the-art algorithms. 
 
-# Bunch Model in Detectron2 
+# Grape bunch detector
 
 ### Requirements
 ### Training Dataset
@@ -26,11 +22,11 @@ The implementation is based on instance segmentation and on Facebook's Detectron
 - Training time 27 minutes
 
 
-# Bunch Count (Tracker on detector)
+# Grape Bunch Counter
 
 Since a new detector was developed, a new bunch counting algorithm had to be developed as well. For bunch counting, Tracker DeepSort was used as it is compatible with Detectron2 *[link](https://github.com/sayef/detectron2-deepsort-pytorch)*. The tracking algorithm, allows to track an object in a sequence of frames (video), assigning it a unique identifier.
 
-# Berry Model in Detectron2
+# Berry Detector
 
 # Table of Content 
 
