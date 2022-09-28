@@ -8,7 +8,7 @@ Mask R-CNN with a ResNet-50 grape detector based on detectron2
 for berries detection in bunches of grapes images, allows the 
 detection of circular, oval and elongated grapes shapes.
 
-![](C:\Users\Dell\Documents\GitHub\AustralFalcon_grapes\imgs\brunch_inference.jpeg)
+![](https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/brunch_inference.jpeg)
 
 # Usage - Grapes detector
 
@@ -25,7 +25,7 @@ berries the polygon region shape. Once the labeling was finished, a python code 
 ### Data augmentation
 The rotations were from 45º to -45º, each 5º a rotation was made for a total of 19 rotations of the dataset.
 
-![](imgs\grape_detector_rotations.png)
+![](https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/grape_detector_rotations.png)
 
 ## Training
 Parameters and values used to train the object detector model were the following:
@@ -39,9 +39,9 @@ Parameters and values used to train the object detector model were the following
 
 
 ## Evaluation
-Due to the large number of berries per bunch, it was decided to contrast the number of labels vs. the number of detections, since there are labels and detections that overlap.
+Due to the large number of berries per bunch, it was decided to contrast the number of labels vs. the number of detections, since there are labels and detections that overlap. The evaluation of the model was carried out through the inference of the test dataset.
 
-![](imgs\grape_detector_chart.png)
+![](https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/grape_detector_chart.png)
 
 
 |                               | Detection      | Regression    |
