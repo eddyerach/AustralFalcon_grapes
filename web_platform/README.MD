@@ -36,7 +36,8 @@ Through this application, the user can visualize the calculations made by the Ar
 
 **Field Performance**
 
-The platform allows you to visualize the growth curve of the berry in millimeters according to the estimated harvest date. 
+The platform allows you to visualize the growth curve of the berry in millimeters according to the estimated harvest date.
+
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field_performance.png)
 
  **Climatic Conditions**
@@ -55,9 +56,14 @@ We can visualize multispectral images showing the Normalized Moisture Difference
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/img_multiespectral.png)
 
 **Berry Count**
+
+In addition, thanks to Machine Vision and Machine Learning techniques, a model has been implemented in the platform that allows the counting of berries in an image uploaded from your computer. 
+
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/count.png)
 
 **Crop Maps**
+
+Finally, another benefit of the platform is that based on an image or video, it is possible to count the total number of bunches. 
 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field.png)
 
