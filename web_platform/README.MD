@@ -15,7 +15,7 @@ Need to have an account for this you must use your email and password.
 **Create a New Field**
 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/new_field.png)
-jb
+
 **Edit Quadrant**
 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/edit_cuartel.png)
