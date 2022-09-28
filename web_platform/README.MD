@@ -31,8 +31,7 @@ Need to have an account for this you must use your email and password.
 
  **Climatic Conditions**
  
-![](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/weather_conditions.png)
-
+![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/weather_conditions.png)
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/weather_conditions2.png)
 
 **Multispectral Images**
@@ -44,4 +43,5 @@ Need to have an account for this you must use your email and password.
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/count.png)
 
 **Crop Maps**
+
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field.png)
