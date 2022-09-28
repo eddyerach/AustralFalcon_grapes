@@ -22,22 +22,35 @@ In addition, you can add a new field by selecting the area in which you want to 
 
 **Edit Quadrant**
 
+Also, you will be able to edit your field by adding the most relevant data of your crop. 
+
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/edit_cuartel.png)
 
-## Collect data: weight of bunches, the amount of the crop or the climatic conditions of the field.
+## Collect data: Weight of bunches, the amount of the crop or the climatic conditions of the field.
+
+Through this application, the user can visualize the calculations made by the Artificial Intelligence for crop estimation and filter the results by different fields to obtain the information quickly, efficient and accurate way.
+
 **Estimated Crop**
 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/cuartel.png)
 
 **Field Performance**
 
+The platform allows you to visualize the growth curve of the berry in millimeters according to the estimated harvest date. 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field_performance.png)
 
  **Climatic Conditions**
+ 
+ Another section you can find in this interface is the weather conditions of the field. For example, it predicts the temperature in our area, gives us the wind speed, the humidity in percentage depending on the date, the ultraviolet index, the solar radiation and also gives us the precipitation measurement of the water fall in the place. 
+ 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/weather_conditions.png)
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/weather_conditions2.png)
-
+ 
+ ## Iterative Crop Maps
 **Multispectral Images**
+
+The interface features crop maps and interactive graphics to help identify real-time data more easily. 
+We can visualize multispectral images showing the Normalized Moisture Difference Index. 
 
 ![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/img_multiespectral.png)
 
