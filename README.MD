@@ -12,10 +12,6 @@ Austral Falcon provides a technological solution designed to digitize the proces
   <div class="caption" float="center" align="center">Bunch Counting</div>
 </p>
 
-<p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field.png" width="809"/> 
-  <div class="caption" float="center" align="center">Estimation of bunch load by counting in a sample of crop rows.</div>
-</p>
 
 # Table of Content 
 
