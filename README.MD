@@ -13,7 +13,7 @@ The implementation is based on instance segmentation and on Facebook's Detectron
 
 
 
-<p float="center">
+<p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg" width="640" height"360"/>
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg" height="360"/> 
 </p>
