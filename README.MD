@@ -5,23 +5,32 @@
   <h1> Austral Falcon: Deep learning for vineyard cultivation </h1>
 </p>
 
-Austral Falcon is a technological solution designed to digitize the processes that are currently carried out manually in the agricultural industry. The platform provided by us applies state of the art Machine Vision (MV), Artificial Intelligence (AI) and Machine Learning (ML) technology to optimize decision-making based on quantitative information, acquired systematically and with high precision.
-
-Code for the entire development cycle of Deep Learning models focused on grape cultivation.
-The implementation is based on instance segmentation and on Facebook's Detectron2 framework. It is able to detect bunches and count them and also to detect grapes and count them.
+Austral Falcon provides a technological solution designed to digitize the processes that are currently carried out manually in the agricultural industry. Our platform applies state-of-the-art Machine Vision (MV), Deep Learning (DL) and Machine Learning (ML) technology to optimize decision-making based on quantitative information, acquired systematically and with high precision.
 
 <p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field_performance.png" width="476" height="220"/>
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/count.png" width="476" height="220"/> 
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field.png" width="809"/> 
+  <div class="caption" float="center" align="center">Estimation of bunch load by counting in a sample of crop rows.</div>
 </p>
+
+<p>
+  <h2> Deep Learning components</h2>
+</p>
+
+Our solution incorporates two Deep Learning algorithms for the detection and subsequent counting of clusters and grapes. These algorithms apply instance segmentation through a mask r-cnn neural network and were built using Meta's Detectron2 platform.
 
 <p align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10_small.gif" alt="Counting grapes GIF"/>
+  <div class="caption" float="center" align="center">Bunch Counting</div>
 </p>
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg" width="640" height"360"/>
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg" height="360"/> 
+  <div class="caption" float="center" align="center">Bunch and Grapes Detection</div>
+</p>
+
+<p align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_and_regression.png" alt="Grape counting prec"/>
 </p>
 
 # Grape bunch detector
