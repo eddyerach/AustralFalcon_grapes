@@ -7,6 +7,11 @@
 
 Austral Falcon provides a technological solution designed to digitize the processes that are currently carried out manually in the agricultural industry. Our platform applies state-of-the-art Machine Vision (MV), Deep Learning (DL) and Machine Learning (ML) technology to optimize decision-making based on quantitative information, acquired systematically and with high precision.
 
+<p align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10_small.gif" alt="Counting grapes GIF"/>
+  <div class="caption" float="center" align="center">Bunch Counting</div>
+</p>
+
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field.png" width="809"/> 
   <div class="caption" float="center" align="center">Estimation of bunch load by counting in a sample of crop rows.</div>
@@ -18,10 +23,7 @@ Austral Falcon provides a technological solution designed to digitize the proces
 
 Our solution incorporates two Deep Learning algorithms for the detection and subsequent counting of clusters and grapes. These algorithms apply instance segmentation through a mask r-cnn neural network and were built using Meta's Detectron2 platform.
 
-<p align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10_small.gif" alt="Counting grapes GIF"/>
-  <div class="caption" float="center" align="center">Bunch Counting</div>
-</p>
+
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg" width="640" height"360"/>
