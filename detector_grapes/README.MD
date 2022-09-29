@@ -92,12 +92,12 @@ To conclude, it is observed how the augmented data model can identify different 
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/elongated%20berries.png" width="800" height="600"/> 
-  <div class="caption" float="center" align="center"> Elongated berries: Data Original Model vs Data Augmented Model  </div>
+  <div class="caption" float="center" align="center">   </div>
 </p>
 
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/round-and-oval-berries.png" width="800" height="600"/> 
-  <div class="caption" float="center" align="center"> Round and Oval berries: Data Original Model vs Data Augmented Model </div>
+  <div class="caption" float="center" align="center"> </div>
 </p>
 
