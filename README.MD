@@ -16,7 +16,7 @@ Austral Falcon provides a technological solution designed to digitize the proces
 # Table of Content 
 
 - [Installation](#Installation)
-- [Data Configuration (images, labels)](##DataConfiguration)
+  - [Data Configuration (images, labels)](##DataConfiguration)
 - [Training Guide](#TrainingGuide)
 - [Inference Guide](#InferenceGuide)
 - [Result](#Result)
