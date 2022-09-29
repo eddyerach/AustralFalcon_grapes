@@ -34,7 +34,11 @@ applied to the original images, specifically positive and negative variations of
 - Contrast (+/-)
 - Saturation (+/-)
 - Gamma (+/-)
-![]()
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/e8971b6711a59c27a9a1b53c08961539d91014e6/imgs/detector_bunch/color filters.png" width="800"/> 
+  <div class="caption" float="center" align="center"> Color filters applied to original image.</div>
+</p>
 
 As a result, the dataset was augmented to 3304 images which were divided into 
 two datasets 2701 images for train and 603 images for test in a proportion of 80% and 20% 
@@ -47,8 +51,9 @@ Parameters and values used to train the object detector model were the following
 | :--------             | :-------      |
 | `Learning rate`       | `0.001`       |
 | `Iterations`          | `4000`        |
-| `Train Images`        | `2701`      |
-| `Nº Labels`           | `23233`      |
+| `Train Images`        | `2701`        |
+| `Nº Labels`           | `23233`       |
+| `Training time`       | `42 minutes` |
 
 
 ## Evaluation
@@ -84,5 +89,13 @@ Mosaics of the evaluation through IOU of the Bunches detection model are shown b
 
 | Bounding Box      | Color                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Label | ![#0a192f](https://via.placeholder.com/10/0000FF?text=+) | 
-| Detection | ![#00b48a](https://via.placeholder.com/10/FF0000?text=+) |
+| Label | ![](https://via.placeholder.com/10/0000FF?text=+) | 
+| Detection | ![](https://via.placeholder.com/10/FF0000?text=+) |
+
+## Appendix
+
+Downloadable Files:
+
+-[Grapes Bunch Detector Augmented Model](https://drive.google.com/drive/u/0/folders/1UDaHRN8NDshTNN3eioF40tQN8lJtrqsx)
+
+-[Datasets](https://drive.google.com/drive/u/0/folders/1QsUUjNpMz2n27a6XmgzPKwRnUQ9z81HF)
