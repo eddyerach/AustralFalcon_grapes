@@ -1,12 +1,11 @@
 
-![Logo](https://www.australfalcon.com/wp-content/uploads/2020/04/australfalcon-logo_83110dbd991fa114543f627f8df424f4.png)
 
 <p float="center" align="left">
   <img src="https://www.australfalcon.com/wp-content/uploads/2020/04/australfalcon-logo_83110dbd991fa114543f627f8df424f4.png"/>
   <h1> Deep learning for vineyard cultivation </h1>
 </p>
 
-# Deep learning for vineyard cultivation
+
 Code for the entire development cycle of Deep Learning models focused on grape cultivation.
 The implementation is based on instance segmentation and on Facebook's Detectron2 framework. It is able to detect bunches and count them and also to detect grapes and count them.
 
