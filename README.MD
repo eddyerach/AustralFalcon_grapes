@@ -1,9 +1,9 @@
 
 ![Logo](https://www.australfalcon.com/wp-content/uploads/2020/04/australfalcon-logo_83110dbd991fa114543f627f8df424f4.png)
 
-<p float="center" align="center">
+<p float="left" align="left">
   <img src="https://www.australfalcon.com/wp-content/uploads/2020/04/australfalcon-logo_83110dbd991fa114543f627f8df424f4.png"/>
-  HOla 
+  <h1> Deep learning for vineyard cultivation </h1>
 </p>
 
 # Deep learning for vineyard cultivation
