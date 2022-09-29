@@ -5,7 +5,7 @@
   <h1> Austral Falcon: Deep learning for vineyard cultivation </h1>
 </p>
 
-Austral Falcon is a technological solution designed to digitize the processes that are currently carried out manually in the agricultural industry. The platform provided by us applies state of the art Machine Vision (MV), Artificial Intelligence (AI) and Machine Learning (ML) technology to optimize decision-making based on quantitative information, acquired systematically and with high precision.
+Austral Falcon provides a technological solution designed to digitize the processes that are currently carried out manually in the agricultural industry. Our platform applies state-of-the-art Machine Vision (MV), Deep Learning (DL) and Machine Learning (ML) technology to optimize decision-making based on quantitative information, acquired systematically and with high precision.
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field.png" width="809"/> 
