@@ -11,8 +11,8 @@ Code for the entire development cycle of Deep Learning models focused on grape c
 The implementation is based on instance segmentation and on Facebook's Detectron2 framework. It is able to detect bunches and count them and also to detect grapes and count them.
 
 <p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field_performance.png" height="200"/>
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/count.png" height="200"/> 
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field_performance.png" height="250"/>
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/count.png" height="250"/> 
 </p>
 
 <p align="center">
