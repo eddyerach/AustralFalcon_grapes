@@ -7,16 +7,17 @@
 Mask R-CNN with a ResNet-50 based on detectron2 
 for bunches of grapes detection in vineyard cultivation images.
 
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/b10e6fbf1c3eb04b5163c515e4409ba0b083fbef/imgs/detector_bunch/inference.jpg" width="800"/> 
+  <div class="caption" float="center" align="center"> Bunches detected in red vs Bunches labeled in blue.</div>
+</p>
 
 
-![](https://github.com/eddyerach/AustralFalcon_grapes/blob/b22c49ada2b7705c93f53b71f25f7592abc45cad/imgs/Hilera_2_2_37_1_frame4320.jpg)
 # Usage - Grapes detector
 
 ## Data preparation
-The used dataset corresponds to 369 images of bunches of grapes 
-mostly in rows of vineyard which were divided into 
-two datasets 301 images for train and 68 images for test in a proportion of 80% and 20% 
-respectively.
+The original dataset corresponds to 369 images of bunches of grapes 
+mostly in rows of vineyard which contains 3015 bunches labels
 
 ### Datasets and labels
 The images were labeled using the [VGG image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html) 
@@ -26,9 +27,8 @@ format the label JSON file in such a way that it is compatible
 with detectron2 for training.
 
 ### Data augmentation
-Due to the different light conditions that can occur when 
-capturing the images of bunches of grapes, a color increase was
-made to the original images of the dataset, specifically positive and negative variations of color filters were applied.
+Due to the different light conditions that images of bunches of grapes can present and the low amount of labels that are in the dataset, a color augmentation was
+applied to the original images, specifically positive and negative variations of color filters were applied.
 
 - Brightness (+/-)
 - Contrast (+/-)
@@ -36,15 +36,19 @@ made to the original images of the dataset, specifically positive and negative v
 - Gamma (+/-)
 ![]()
 
+As a result, the dataset was augmented to 3304 images which were divided into 
+two datasets 2701 images for train and 603 images for test in a proportion of 80% and 20% 
+respectively.
+
 ## Training
 Parameters and values used to train the object detector model were the following:
 
 | Parameter             | Value         |
 | :--------             | :-------      |
 | `Learning rate`       | `0.001`       |
-| `Iterations`          | `2000`        |
-| `Train Images`        | `301`      |
-| `Nº Labels`           | `2593`      |
+| `Iterations`          | `4000`        |
+| `Train Images`        | `2701`      |
+| `Nº Labels`           | `23233`      |
 
 
 ## Evaluation
@@ -52,8 +56,33 @@ The evaluation criteria used was Intersection over Union (IOU), an IOU score gre
 between a detection and label is considered a true positive, 
 otherwise it is a false positive and labels without detection 
 were considered false negatives. In this way, the accuracy of the model is calculated through a confusion matrix.
+
 | Nº Deteccions  | True positives      | False positives    | false negatives   | Accuracy   | Recall        |
 | :--------      | :-------            | :------------      | :------------     | :----------| :------------ |
-| `669`          | `543`               | `126`              | `125`             | `0.812`    | `0.813`       |
+| `3704`         | `3344`              | `360`              | `819`             | `0.903`    | `0.803`       |
 
 ## Results
+
+Mosaics of the evaluation through IOU of the Bunches detection model are shown below.
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/b10e6fbf1c3eb04b5163c515e4409ba0b083fbef/imgs/detector_bunch/test-False Negatives-2.png" width="800"/> 
+  <div class="caption" float="center" align="center"> False Negatives detections.</div>
+</p>
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/b10e6fbf1c3eb04b5163c515e4409ba0b083fbef/imgs/detector_bunch/test-False Negatives-2.png" width="800"/> 
+  <div class="caption" float="center" align="center"> False Positives detections.</div>
+</p>
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/e7671d5306f74fb24d754e47d11adabca7c32076/imgs/detector_bunch/test-True Positives-1.png" width="800"/> 
+  <div class="caption" float="center" align="center"> True Positives, detections in red and labels in blue.</div>
+</p>
+
+## Color Reference
+
+| Bounding Box      | Color                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Label | ![#0a192f](https://via.placeholder.com/10/0000FF?text=+) | 
+| Detection | ![#00b48a](https://via.placeholder.com/10/FF0000?text=+) |
