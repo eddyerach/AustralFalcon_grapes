@@ -15,16 +15,21 @@ Austral Falcon provides a technological solution designed to digitize the proces
 
 # Table of Content 
 
+- [Web Platform](#Web Platform)
+- [Grapes Detector](#Grapes Detector)
+- [Bunch Detector](#Bunch Detector)
+- [Bunch Counter](#Bunch Counter)
 - [Installation](#Installation)
-  - [Data Configuration (images, labels)](##DataConfiguration)
+- [Data Configuration (images, labels)](##DataConfiguration)
 - [Training Guide](#TrainingGuide)
 - [Inference Guide](#InferenceGuide)
 - [Result](#Result)
 - [Metric Table](#MetricTable)
 
-<p>
-  <h2> Deep Learning components</h2>
-</p>
+# Web Platform
+# Grapes Detector
+# Bunch Detector
+# Bunch Counter
 
 Our solution incorporates two Deep Learning algorithms for the detection and subsequent counting of clusters and grapes. These algorithms apply instance segmentation through a mask r-cnn neural network and were built using Meta's Detectron2 platform.
 
