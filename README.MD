@@ -17,6 +17,15 @@ Austral Falcon provides a technological solution designed to digitize the proces
   <div class="caption" float="center" align="center">Estimation of bunch load by counting in a sample of crop rows.</div>
 </p>
 
+# Table of Content 
+
+- [Installation](#Installation)
+- [Data Configuration (images, labels)](#DataConfiguration)
+- [Training Guide](#TrainingGuide)
+- [Inference Guide](#InferenceGuide)
+- [Result](#Result)
+- [Metric Table](#MetricTable)
+
 <p>
   <h2> Deep Learning components</h2>
 </p>
@@ -57,14 +66,7 @@ Since a new detector was developed, a new bunch counting algorithm had to be dev
 
 # Berry Detector
 
-# Table of Content 
 
-- [Installation](#Installation)
-- [Data Configuration (images, labels)](#DataConfiguration)
-- [Training Guide](#TrainingGuide)
-- [Inference Guide](#InferenceGuide)
-- [Result](#Result)
-- [Metric Table](#MetricTable)
 
 # Installation
 First, we need to know that this project was carried out on a computer with the following features:
