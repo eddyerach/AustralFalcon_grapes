@@ -9,7 +9,7 @@ Austral Falcon provides a technological solution designed to digitize the proces
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field.png" width="809"/> 
-  <div class="caption">Caption 1</div>
+  <div class="caption" float="center" align="center">Caption 1</div>
 </p>
 
 <p>
