@@ -23,9 +23,7 @@ for round and oval berries the elliptical region shape and for elongated
 berries the polygon region shape. Once the labeling was finished, a python code was used to format the label JSON file in such a way that it is compatible with detectron2 for training.
 
 ### Data augmentation
-The rotations were from 45º to -45º, each 5º a rotation was made for a total of 19 rotations of the dataset.
-
-![](https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/grape_detector_rotations.png)
+In order to have a higher accuracy of the model a retraining must be performed.  For this purpose, the number of images to be trained was increased, more variability of turns and training with different types of berries. The augmentation dataset corresponds to 5054 images of bunches of grapes with a total of 324368 labels. 
 
 ## Training
 Parameters and values used to train the object detector model were the following:
@@ -34,12 +32,28 @@ Parameters and values used to train the object detector model were the following
 | :--------             | :-------      |
 | `Learning rate`       | `0.001`       |
 | `Iterations`          | `2000`        |
-| `Train Images`        | `219`      |
-| `Nº Labels`           | `17607`      |
+| `Train Images`        | `274`         |
+| `Nº Labels`           | `17607`       |
 
+Parameters and values used to train the object detector model with data augmentation were the following:
+
+| Parameter             | Value         |
+| :--------             | :-------      |
+| `Learning rate`       | `0.001`       |
+| `Iterations`          | `6000`        |
+| `Train Images`        | `5054`        |
+| `Nº Labels`           | `324368`      |
+| `Dataset train`       | `4017`        |
+| `Dataset val`         | `1036`        |
+| `Umbral test`         | `0.2`         |
+| `Time Training`       | `3h`          |
+
+The rotations were from 45º to -45º, each 5º a rotation was made for a total of 19 rotations of the dataset.
+
+![](https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/grape_detector_rotations.png)
 
 ## Evaluation
-Due to the large number of berries per bunch, it was decided to contrast the number of labels vs. the number of detections, since there are labels and detections that overlap. The evaluation of the model was carried out through the inference of the test dataset.
+Due to a large number of berries per bunch, it was decided to contrast the number of labels vs. the number of detections, since there are labels and detections that overlap. The evaluation of the model was carried out through the inference of the test dataset.
 
 ![](https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/grape_detector_chart.png)
 
