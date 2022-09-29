@@ -24,6 +24,10 @@ The implementation is based on instance segmentation and on Facebook's Detectron
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg" height="360"/> 
 </p>
 
+<p align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_and_regression.png" alt="Grape counting prec"/>
+</p>
+
 # Grape bunch detector
 
 ### Requirements
