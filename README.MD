@@ -1,10 +1,28 @@
 
-# Austral Falcon: Deep learning for vineyard cultivation
+
+<p float="center" align="left">
+  <img src="https://www.australfalcon.com/wp-content/uploads/2020/04/australfalcon-logo_83110dbd991fa114543f627f8df424f4.png"/>
+  <h1> Austral Falcon: Deep learning for vineyard cultivation </h1>
+</p>
+
+Austral Falcon is a technological solution designed to digitize the processes that are currently carried out manually in the agricultural industry. The platform provided by us applies state of the art Machine Vision (MV), Artificial Intelligence (AI) and Machine Learning (ML) technology to optimize decision-making based on quantitative information, acquired systematically and with high precision.
+
 Code for the entire development cycle of Deep Learning models focused on grape cultivation.
 The implementation is based on instance segmentation and on Facebook's Detectron2 framework. It is able to detect bunches and count them and also to detect grapes and count them.
-![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg?raw=true)
-![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg?raw=true)
-![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10.gif?raw=true)
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field_performance.png" width="476" height="220"/>
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/count.png" width="476" height="220"/> 
+</p>
+
+<p align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10_small.gif" alt="Counting grapes GIF"/>
+</p>
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg" width="640" height"360"/>
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg" height="360"/> 
+</p>
 
 # Grape bunch detector
 
