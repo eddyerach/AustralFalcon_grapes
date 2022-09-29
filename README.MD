@@ -20,11 +20,13 @@ Our solution incorporates two Deep Learning algorithms for the detection and sub
 
 <p align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10_small.gif" alt="Counting grapes GIF"/>
+  <div class="caption" float="center" align="center">Bunch Counting</div>
 </p>
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg" width="640" height"360"/>
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg" height="360"/> 
+  <div class="caption" float="center" align="center">Bunch and Grapes Detection.</div>
 </p>
 
 <p align="center">
