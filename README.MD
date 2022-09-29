@@ -1,11 +1,11 @@
 
 ![Logo](https://www.australfalcon.com/wp-content/uploads/2020/04/australfalcon-logo_83110dbd991fa114543f627f8df424f4.png)
-# Austral Falcon: Deep learning for vineyard cultivation
+#Deep learning for vineyard cultivation
 Code for the entire development cycle of Deep Learning models focused on grape cultivation.
 The implementation is based on instance segmentation and on Facebook's Detectron2 framework. It is able to detect bunches and count them and also to detect grapes and count them.
-![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg?raw=true)
-![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg?raw=true)
-![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10.gif?raw=true)
+![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg?raw=true | width=100)
+![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg?raw=true | width=100)
+![alt text](https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10.gif?raw=true | width=100)
 
 # Grape bunch detector
 
