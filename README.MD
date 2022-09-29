@@ -15,7 +15,7 @@ Austral Falcon provides a technological solution designed to digitize the proces
   <h2> Deep Learning components</h2>
 </p>
 
-Our solution incorporates two Deep Learning algorithms for the detection and subsequent counting of clusters and grapes. These algorithms apply the instance segmentation technique through a mask r-cnn neural network and were built using Meta's Detectron2 platform.
+Our solution incorporates two Deep Learning algorithms for the detection and subsequent counting of clusters and grapes. These algorithms apply instance segmentation through a mask r-cnn neural network and were built using Meta's Detectron2 platform.
 
 <p align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10_small.gif" alt="Counting grapes GIF"/>
