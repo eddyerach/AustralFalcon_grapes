@@ -14,7 +14,15 @@ Mask R-CNN with a ResNet-50 grape detector based on detectron2 for berries detec
 # Usage - Grapes detector
 ## Datasets and labels
 
-The images were labeled using the [VGG image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html) from The University of Oxford. Due to the different shapes that berries can present, two region shape tools were used, for round and oval berries the elliptical region shape, and for elongated berries the polygon region shape. Once the labeling was finished, a python code was used to format the label JSON file in such a way that it is compatible with detectron2 for training. 
+The images were labeled using the [VGG image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html) from The University of Oxford. Due to the different shapes that berries can present, two region shape tools were used, for round and oval berries the elliptical region shape, and for elongated berries the polygon region shape. Once the labeling was finished, a python code was used to format the label JSON file in such a way that it is compatible with detectron2 for training.
+
+#### Processing of VGG file to JSON files compatible with training
+Run the script **process_label.py** from terminal
+
+```http
+  process_label.py --via_file path/to/VGG_labels_file.json --images_src path/to/labeled_dataset_images --images_dst path/to/dataset_folder_train_test
+
+```
 
 ### Data Original 
 
@@ -30,6 +38,29 @@ The rotations were from 45º to -45º, each 5º a rotation was made for a total 
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/grape_detector_rotations.png" width="800"      height="600"/> 
   <div class="caption" float="center" align="center">  </div>
 </p>
+
+## Set docker container
+Pull docker container from Docker Hub 
+```http
+  sudo docker pull eddyerach1/detectron2_banano_uvas:latest
+
+```
+Run docker container from terminal
+```http
+  sudo docker run --gpus all -it -v /home/grapes:/shared  --name detectron2_grapes
+
+```
+
+Start docker container from terminal
+```http
+  sudo docker start detectron2_grapes
+
+```
+Enter to docker container from terminal
+```http
+  sudo docker exec -it detectron2_grapes bash
+
+```
 
 ## Training
 
@@ -56,6 +87,15 @@ Two different models were trained, one with the original data set and one with t
 | `Train Images`        | `5,054`       |
 | `Nº Labels`           | `324,368`     |
 | `Time Training`       | `3 hours`     |
+
+
+#### Training from docker container
+Configure the training parameters in **train.py** script according to your needs, then run the script from docker container terminal
+
+```http
+  python3 train.py
+
+```
 
 ## Evaluation
 
@@ -102,3 +142,17 @@ To conclude, it is observed how the augmented data model can identify different 
 </p>
 
 
+#### Image Inference
+Go to the path inside docker where the script **inference.py** is located and run the script
+```http
+  python3 inference.py
+
+```
+
+## Appendix
+
+Downloadable Files:
+
+-[Grapes Bunch Detector Augmented Model](https://drive.google.com/drive/u/0/folders/1UDaHRN8NDshTNN3eioF40tQN8lJtrqsx)
+
+-[Datasets](https://drive.google.com/drive/u/0/folders/1QsUUjNpMz2n27a6XmgzPKwRnUQ9z81HF)

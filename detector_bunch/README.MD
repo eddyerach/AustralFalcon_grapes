@@ -14,7 +14,7 @@ for bunches of grapes detection in vineyard cultivation images.
 </p>
 
 
-# Usage - Grapes detector
+# Usage - Bunch detector
 
 ## Data preparation
 The original dataset corresponds to 369 images of bunches of grapes 
@@ -131,13 +131,6 @@ Go to the path inside docker where the script **inference.py** is located and ru
   python3 inference.py
 
 ```
-
-## Color Reference
-
-| Bounding Box      | Color                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Label | ![](https://via.placeholder.com/15/0000FF?text=+) | 
-| Detection | ![](https://via.placeholder.com/15/FF0000?text=+) |
 
 ## Appendix
 
