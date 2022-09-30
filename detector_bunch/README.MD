@@ -136,7 +136,7 @@ Go to the path inside docker where the script **inference.py** is located and ru
 
 | Bounding Box      | Color                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Label | ![](https://via.placeholder.com/10/0000FF?text=+) | 
+| Label | ![](https://via.placeholder.com/10/0000FF) | 
 | Detection | ![](https://via.placeholder.com/10/FF0000?text=+) |
 
 ## Appendix
