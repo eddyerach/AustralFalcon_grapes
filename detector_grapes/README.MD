@@ -131,16 +131,10 @@ Due to a large number of berries per bunch, it was decided to contrast the numbe
 To conclude, it is observed how the augmented data model can identify different types of berries (round, oval, elongated). The following inferences are shown below. 
 
 <p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/elongated%20berries.png" width="500" height="600"/> 
-  <div class="caption" float="center" align="center">   </div>
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/elongated%20berries.png" height="550"/> 
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/round-and-oval-berries.png" height="550"/> 
+  <div class="caption" float="center" align="center"></div>
 </p>
-
-
-<p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/round-and-oval-berries.png" width="500" height="600"/> 
-  <div class="caption" float="center" align="center"> </div>
-</p>
-
 
 #### Image Inference
 Go to the path inside docker where the script **inference.py** is located and run the script
