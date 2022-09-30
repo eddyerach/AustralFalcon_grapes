@@ -62,7 +62,7 @@ This component is better detailed [here](https://github.com/eddyerach/AustralFal
 
 The cluster counter is a Deep Learning system that takes the detections of the cluster detector and feeds it into a tracking algorithm, thus allowing the clusters to be identified in a video and then counted.
 
-The tracker used is a variant of DeepSort and the counting algorithm consists of a heuristic based on line crossings. More detail can be found [here](https://github.com/eddyerach/AustralFalcon_grapes/tree/main/counter_grapes).\
+The tracker used is a variant of DeepSort and the counting algorithm consists of a heuristic based on line crossings. More detail can be found [here](https://github.com/eddyerach/AustralFalcon_grapes/tree/main/counter_grapes).
 
 <p align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10_small.gif" alt="Counting grapes GIF"/>
