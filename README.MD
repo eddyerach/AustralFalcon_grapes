@@ -46,7 +46,7 @@ This component is better described here.
 </p>
 
 <p align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_and_regression.png" alt="Grape counting prec"/>
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_and_regression.png" width="640" alt="Grape counting prec"/>
 </p>
 
 
