@@ -134,8 +134,11 @@ Go to the path inside docker where the script **inference.py** is located and ru
 
 ## Appendix
 
+The dataset provided is a sample of the original dataset used by Austral Falcon for model development.
+
 Downloadable Files:
 
 -[Grapes Bunch Detector Augmented Model](https://drive.google.com/drive/u/0/folders/1UDaHRN8NDshTNN3eioF40tQN8lJtrqsx)
 
 -[Datasets](https://drive.google.com/drive/u/0/folders/1QsUUjNpMz2n27a6XmgzPKwRnUQ9z81HF)
+
