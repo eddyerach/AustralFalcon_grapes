@@ -83,7 +83,7 @@ cfg.DATALOADER.NUM_WORKERS = 8
 cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml")
 cfg.SOLVER.IMS_PER_BATCH = 4
 cfg.SOLVER.BASE_LR = 0.001
-cfg.SOLVER.MAX_ITER = 4000
+cfg.SOLVER.MAX_ITER = 2000
 cfg.SOLVER.STEPS = []
 cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1
 
