@@ -3,8 +3,7 @@
 
 
 # Grape bunch counter
-
-The grape bunch counter is based on an [algorithm](https://github.com/sayef/detectron2-deepsort-pytorch) which allows tracking an object in a sequence of frames (video), each detected object is assigned a unique identifier which is maintained during the inference.
+The bunch counter is developed from the bunch detector and the [DeepSort](https://github.com/sayef/detectron2-deepsort-pytorch) multi-object tracking algorithm. DeepSort allows tracking an object in a sequence of frames (video), each detected object is assigned a unique identifier which is maintained during the inference.
 
 
 
