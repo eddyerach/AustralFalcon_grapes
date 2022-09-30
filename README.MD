@@ -68,3 +68,6 @@ The tracker used is a variant of DeepSort and the counting algorithm consists of
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10_small.gif" alt="Counting grapes GIF"/>
   <div class="caption" float="center" align="center">Bunch Counting</div>
 </p>
+
+
+
