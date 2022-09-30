@@ -1,4 +1,5 @@
 
+
 ![Logo](https://www.australfalcon.com/wp-content/uploads/2020/04/australfalcon-logo_83110dbd991fa114543f627f8df424f4.png)
 
 
@@ -26,6 +27,14 @@ tool. Once the labeling was finished, a python code was used to
 format the label JSON file in such a way that it is compatible 
 with detectron2 for training.
 
+#### Processing of VGG file to JSON files compatible with training
+Run the script **process_label.py** from terminal
+
+```http
+  process_label.py --via_file path/to/VGG_labels_file.json --images_src path/to/labeled_dataset_images --images_dst path/to/dataset_folder_train_test
+
+```
+
 ### Data augmentation
 Due to the different light conditions that images of bunches of grapes can present and the low amount of labels that are in the dataset, a color augmentation was
 applied to the original images, specifically positive and negative variations of color filters were applied.
@@ -44,6 +53,29 @@ As a result, the dataset was augmented to 3304 images which were divided into
 two datasets 2701 images for train and 603 images for test in a proportion of 80% and 20% 
 respectively.
 
+## Set docker container
+Pull docker container from Docker Hub 
+```http
+  python3 train.py
+
+```
+Run docker container from terminal
+```http
+  sudo docker run detectron2
+
+```
+
+Start docker container from terminal
+```http
+  sudo docker start detectron2
+
+```
+Enter to docker container from terminal
+```http
+  sudo docker exec -it detectron2 bash
+
+```
+
 ## Training
 Parameters and values used to train the object detector model were the following:
 
@@ -55,6 +87,13 @@ Parameters and values used to train the object detector model were the following
 | `Nº Labels`           | `23233`       |
 | `Training time`       | `42 minutes` |
 
+#### Training from docker container
+Configure the training parameters in **train.py** script according to your needs, then run the script from docker container terminal
+
+```http
+  python3 train.py
+
+```
 
 ## Evaluation
 The evaluation criteria used was Intersection over Union (IOU), an IOU score greater than 0.2 
@@ -84,6 +123,14 @@ Mosaics of the evaluation through IOU of the Bunches detection model are shown b
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/e7671d5306f74fb24d754e47d11adabca7c32076/imgs/detector_bunch/test-True Positives-1.png" width="800"/> 
   <div class="caption" float="center" align="center"> True Positives, detections in red and labels in blue.</div>
 </p>
+
+
+#### Image Inference
+Go to the path inside docker where the script **inference.py** is located and run the script
+```http
+  python3 inference.py
+
+```
 
 ## Color Reference
 
