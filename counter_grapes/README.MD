@@ -30,6 +30,6 @@ The accuracy of the cluster count depends on the accuracy of the detector model 
 | `799` | `694`    |`799`| `732`    |`580` | `701.25` |`0.87`     | `31`            |
 
 <p align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10_small.gif" alt="Counting grapes GIF"/>
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/350b84f3738d653e5839de6faeba8ec5dab506a8/imgs/modelov3_aumento_color_th01_Hilera_2_2_37_2_SEG10_small.gif" alt="Counting grapes GIF"/>
   <div class="caption" float="center" align="center">Bunch Counting</div>
 </p>
