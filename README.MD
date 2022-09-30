@@ -15,11 +15,11 @@ Austral Falcon provides a technological solution designed to digitize the proces
 
 # Table of Content 
 
-- [Web Platform](#WebPlatform)
-- [Grapes Detector](#GrapesDetector)
-- [Bunch Detector](#BunchDetector)
-- [Bunch Counter](#BunchCounter)
-- [Installation](#Installation)
+- [Web Platform](#web-platform)
+- [Grapes Detector](#grapes-detector)
+- [Bunch Detector](#bunch-detector)
+- [Bunch Counter](#bunch-counter)
+- [Installation](#installation)
 - [Data Configuration (images, labels)](##DataConfiguration)
 - [Training Guide](#TrainingGuide)
 - [Inference Guide](#InferenceGuide)
