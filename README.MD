@@ -38,7 +38,17 @@ We provide a platform with the ability to organize all the relevant information 
 # Grapes Detector
 This component consists of a Deep Learning model with the ability to detect grapes in a bunch. This model was trained with a dataset with gyration increases to guarantee its robustness.
 
-This component is better described here
+This component is better described here.
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg" height="360"/> 
+  <div class="caption" float="center" align="center">Bunch and Grapes Detection</div>
+</p>
+
+<p align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_and_regression.png" alt="Grape counting prec"/>
+</p>
+
 
 # Bunch Detector
 
@@ -56,13 +66,10 @@ The tracker used is a variant of DeepSort and the counting algorithm consists of
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg" width="640" height"360"/>
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg" height="360"/> 
   <div class="caption" float="center" align="center">Bunch and Grapes Detection</div>
 </p>
 
-<p align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_and_regression.png" alt="Grape counting prec"/>
-</p>
+
 
 # Grape bunch detector
 
