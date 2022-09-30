@@ -38,7 +38,7 @@ We provide a platform with the ability to organize all the relevant information 
 # Grapes Detector
 Two Deep Learning models to detect two different variantes of grapes. These models were trained with rotation augmentations to guarantee its robustness.
 
-This component is better described here.
+This component is better described [here](https://github.com/eddyerach/AustralFalcon_grapes/tree/main/detector_grapes).
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg" height="360"/> 
