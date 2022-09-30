@@ -7,7 +7,7 @@
 Mask R-CNN with a ResNet-50 grape detector based on detectron2 for berries detection in bunches of grapes images, allows the detection of circular, oval and elongated grapes shapes.
 
 <p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/brunch_inference.jpeg" width="800"      height="725"/> 
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/brunch_inference.jpeg" width="600"      height="600"/> 
   <div class="caption" float="center" align="center">  </div>
 </p>
 
@@ -35,7 +35,7 @@ To achieve a robust model, we improved the accuracy of the rotated images with d
 The rotations were from 45º to -45º, each 5º a rotation was made for a total of 19 rotations of the dataset.
 
 <p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/grape_detector_rotations.png" width="800"      height="600"/> 
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grape_detector_rotations.png" width="600"      height="600"/> 
   <div class="caption" float="center" align="center">  </div>
 </p>
 
@@ -103,7 +103,7 @@ Due to a large number of berries per bunch, it was decided to contrast the numbe
 
 ### Data Original Model
 <p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_original.png" width="800" height="600"/> 
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_original.png" width="600" height="600"/> 
   <div class="caption" float="center" align="center">  </div>
 </p>
 
@@ -116,7 +116,7 @@ Due to a large number of berries per bunch, it was decided to contrast the numbe
 ### Data Augmentation Model
 
 <p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Grapes_Detection_augmentation.png" width="800" height="600"/> 
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Grapes_Detection_augmentation.png" width="600" height="600"/> 
   <div class="caption" float="center" align="center">  </div>
 </p>
 
@@ -131,13 +131,13 @@ Due to a large number of berries per bunch, it was decided to contrast the numbe
 To conclude, it is observed how the augmented data model can identify different types of berries (round, oval, elongated). The following inferences are shown below. 
 
 <p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/elongated%20berries.png" width="800" height="600"/> 
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/elongated%20berries.png" width="600" height="600"/> 
   <div class="caption" float="center" align="center">   </div>
 </p>
 
 
 <p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/round-and-oval-berries.png" width="800" height="600"/> 
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/round-and-oval-berries.png" width="600" height="600"/> 
   <div class="caption" float="center" align="center"> </div>
 </p>
 
