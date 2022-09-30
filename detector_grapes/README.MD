@@ -8,7 +8,7 @@ Mask R-CNN with a ResNet-50 grape detector based on detectron2 for berries detec
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/brunch_inference.jpeg" width="500"      height="600"/> 
-  <div class="caption" float="center" align="center">  </div>
+  <div class="caption" float="center" align="center"> Detector Grapes </div>
 </p>
 
 # Usage - Grapes detector
@@ -36,7 +36,7 @@ The rotations were from 45º to -45º, each 5º a rotation was made for a total 
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grape_detector_rotations.png" width="600"  height="400"/> 
-  <div class="caption" float="center" align="center">  </div>
+  <div class="caption" float="center" align="center"> Augmented Model with Rotated Images </div>
 </p>
 
 ## Set docker container
@@ -104,7 +104,7 @@ Due to a large number of berries per bunch, it was decided to contrast the numbe
 ### Data Original Model
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_original.png" width="600" height= 400"/> 
-  <div class="caption" float="center" align="center">  </div>
+  <div class="caption" float="center" align="center"> Evaluation of Model with Original Data </div>
 </p>
 
 
@@ -117,7 +117,7 @@ Due to a large number of berries per bunch, it was decided to contrast the numbe
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Grapes_Detection_augmentation.png" width="600" height= "400"/> 
-  <div class="caption" float="center" align="center">  </div>
+  <div class="caption" float="center" align="center"> Evaluation of Augmented Model </div>
 </p>
 
 
@@ -133,7 +133,7 @@ To conclude, it is observed how the augmented data model can identify different 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/elongated%20berries.png" height="550"/> 
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/round-and-oval-berries.png" height="550"/> 
-  <div class="caption" float="center" align="center"></div>
+  <div class="caption" float="center" align="center"> Detection of Two Types of Grapes </div>
 </p>
 
 #### Image Inference
