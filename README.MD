@@ -42,6 +42,7 @@ This component is better described here.
 
 <p float="center" align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg" height="360"/> 
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/bayas_largas.jpg" height="360"/> 
   <div class="caption" float="center" align="center">Bunch and Grapes Detection</div>
 </p>
 
