@@ -25,7 +25,7 @@ Austral Falcon provides a technological solution designed to digitize the proces
 We provide a platform with the ability to organize all the relevant information on your crops and extract useful data that allows you to plan and make more informed decisions. This component is better described [here](https://github.com/eddyerach/AustralFalcon_grapes/tree/main/web_platform).
 
 <p align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/login.png" width="640" alt="Platform Login"/>
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/img_multiespectral.png" width="1400" alt="Platform Login"/>
 </p>
 
 
