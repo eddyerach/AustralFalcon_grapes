@@ -55,13 +55,13 @@ This component is better described [here](https://github.com/eddyerach/AustralFa
 
 Deep Learning model with the ability to detect grape clusters in plants. The detection is performed using instance segmentation through a mask r-cnn neural network. It was implemented using the Meta Detectron2 framework and different data augmentation techniques were used to guarantee a robust model capable of offering good detection accuracy in different image or video capture conditions.
 
-This component is better detailed here.
+This component is better detailed [here](https://github.com/eddyerach/AustralFalcon_grapes/tree/main/detector_bunch).
 
 # Bunch Counter
 
 The cluster counter is a Deep Learning system that takes the detections of the cluster detector and feeds it into a tracking algorithm, thus allowing the clusters to be identified in a video and then counted.
 
-The tracker used is a variant of DeepSort and the counting algorithm consists of a heuristic based on line crossings.
+The tracker used is a variant of DeepSort and the counting algorithm consists of a heuristic based on line crossings. More detail can be found [here](https://github.com/eddyerach/AustralFalcon_grapes/tree/main/counter_grapes).
 
 
 
