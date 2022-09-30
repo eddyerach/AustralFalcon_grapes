@@ -40,7 +40,7 @@ This component is better described [here](https://github.com/eddyerach/AustralFa
   <div class="caption" float="center" align="center">Grapes Detection on Two Variants</div>
 </p>
 
-The number of grapes counted on each bunch is adjusted by regression. This setting allows for greater precision.
+The number of grapes counted in each cluster is adjusted by regression, which allows greater precision.
 <p align="center">
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_and_regression.png" width="640" alt="Grape counting prec"/>
 </p>
