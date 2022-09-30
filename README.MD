@@ -36,7 +36,7 @@ We provide a platform with the ability to organize all the relevant information 
 
 
 # Grapes Detector
-This component consists of a Deep Learning model with the ability to detect grapes in a bunch. This model was trained with a dataset with gyration increases to guarantee its robustness.
+Two Deep Learning models to detect two different variantes of grapes. These models were trained with rotation augmentations to guarantee its robustness.
 
 This component is better described here.
 
