@@ -4,63 +4,101 @@
 
 # Grapes Detector
 
-Mask R-CNN with a ResNet-50 grape detector based on detectron2 
-for berries detection in bunches of grapes images, allows the 
-detection of circular, oval and elongated grapes shapes.
+Mask R-CNN with a ResNet-50 grape detector based on detectron2 for berries detection in bunches of grapes images, allows the detection of circular, oval and elongated grapes shapes.
 
-![](https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/brunch_inference.jpeg)
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/brunch_inference.jpeg" width="800"      height="725"/> 
+  <div class="caption" float="center" align="center">  </div>
+</p>
 
 # Usage - Grapes detector
+## Datasets and labels
 
-## Data preparation
-The dataset used corresponds to 274 images of bunches of grapes which were divided into two datasets train and test in a proportion of 80% and 20% respectively.
+The images were labeled using the [VGG image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html) from The University of Oxford. Due to the different shapes that berries can present, two region shape tools were used, for round and oval berries the elliptical region shape, and for elongated berries the polygon region shape. Once the labeling was finished, a python code was used to format the label JSON file in such a way that it is compatible with detectron2 for training. 
 
-### Datasets and labels
-The images were labeled using the [VGG image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html) 
-tool from The University of Oxford. Due to the different shapes 
-that berries can present, two region shape tools were used, 
-for round and oval berries the elliptical region shape and for elongated 
-berries the polygon region shape. Once the labeling was finished, a python code was used to format the label JSON file in such a way that it is compatible with detectron2 for training.
+### Data Original 
 
-### Data augmentation
-In order to have a higher accuracy of the model a retraining must be performed.  For this purpose, the number of images to be trained was increased, more variability of turns and training with different types of berries. The augmentation dataset corresponds to 5054 images of bunches of grapes with a total of 324368 labels. 
+There exists an original dataset containing 274 images of grape buch of different types of berries such as round, oval and elongated.
+The original data were divided into two datasets, training and test, in a proportion of 80% and 20% respectively. A total of 219 images were taken for training and 55 images for validation.
 
-## Training
-Parameters and values used to train the object detector model were the following:
+### Data Augmentation
 
-| Parameter             | Value         |
-| :--------             | :-------      |
-| `Learning rate`       | `0.001`       |
-| `Iterations`          | `2000`        |
-| `Train Images`        | `274`         |
-| `Nº Labels`           | `17607`       |
-
-Parameters and values used to train the object detector model with data augmentation were the following:
-
-| Parameter             | Value         |
-| :--------             | :-------      |
-| `Learning rate`       | `0.001`       |
-| `Iterations`          | `6000`        |
-| `Train Images`        | `5054`        |
-| `Nº Labels`           | `324368`      |
-| `Dataset train`       | `4017`        |
-| `Dataset val`         | `1036`        |
-| `Umbral test`         | `0.2`         |
-| `Time Training`       | `3h`          |
-
+To achieve a robust model, we improved the accuracy of the rotated images with different types of berries. In addition, the number of images of grape bunch was increased from 274 to 5,054 with a total of 324,368 labels, thus dividing this dataset into training and test, in a proportion of 80% and 20% respectively. A total of 4,017 images were taken for training and 1,036 images for validation.
 The rotations were from 45º to -45º, each 5º a rotation was made for a total of 19 rotations of the dataset.
 
-![](https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/grape_detector_rotations.png)
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/grape_detector_rotations.png" width="800"      height="600"/> 
+  <div class="caption" float="center" align="center">  </div>
+</p>
+
+## Training
+
+Two different models were trained, one with the original data set and one with the augmented data set. The parameters and values used for training are detailed below. 
+
+### Training Data Original
+*Table 1*
+
+| Parameter             | Value         |
+| :--------             | :-------      |
+| `Learning rate`       | `0,001`       |
+| `Iterations`          | `2,000`       |
+| `Train Images`        | `219`         |
+| `Nº Labels`           | `17,607`      |
+| `Time Training`       | `56 min`      |     
+
+### Training Data Augmented 
+*Table 2*
+
+| Parameter             | Value         |
+| :--------             | :-------      |
+| `Learning rate`       | `0,001`       |
+| `Iterations`          | `6,000`       |
+| `Train Images`        | `5,054`       |
+| `Nº Labels`           | `324,368`     |
+| `Time Training`       | `3 hours`     |
 
 ## Evaluation
+
 Due to a large number of berries per bunch, it was decided to contrast the number of labels vs. the number of detections, since there are labels and detections that overlap. The evaluation of the model was carried out through the inference of the test dataset.
 
-![](https://github.com/eddyerach/AustralFalcon_grapes/blob/d04036c2d70b040cee3f6a789eec9efe9dd17c41/imgs/grape_detector_chart.png)
+### Data Original Model
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_original.png" width="800" height="600"/> 
+  <div class="caption" float="center" align="center">  </div>
+</p>
 
 
 |                               | Detection      | Regression    |
 | :--------                     | :-------       | :------------ |
-| `Average individual Accuracy` | `0.907`        | `0.902`       |
-| `Totals Accuracy`             | `0.911`        | `0.971`       |
+| `Average individual Accuracy` |  `0,90`        |  `0,90`       |
+| `Totals Accuracy`             |  `0,91`        |  `0,97`       |
+
+### Data Augmentation Model
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Grapes_Detection_augmentation.png" width="800" height="600"/> 
+  <div class="caption" float="center" align="center">  </div>
+</p>
+
+
+|                               | Detection      | Regression    |
+| :--------                     | :-------       | :------------ |
+| `Average individual Accuracy` |  `0,92`        |  `0,92`       |
+| `Totals Accuracy`             |  `0,93`        |  `0,99`       |
 
 ## Results
+
+To conclude, it is observed how the augmented data model can identify different types of berries (round, oval, elongated). The following inferences are shown below. 
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/elongated%20berries.png" width="800" height="600"/> 
+  <div class="caption" float="center" align="center">   </div>
+</p>
+
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/round-and-oval-berries.png" width="800" height="600"/> 
+  <div class="caption" float="center" align="center"> </div>
+</p>
+
+

@@ -12,37 +12,64 @@ Austral Falcon provides a technological solution designed to digitize the proces
   <div class="caption" float="center" align="center">Bunch Counting</div>
 </p>
 
-<p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/field.png" width="809"/> 
-  <div class="caption" float="center" align="center">Estimation of bunch load by counting in a sample of crop rows.</div>
-</p>
 
 # Table of Content 
 
-- [Installation](#Installation)
-- [Data Configuration (images, labels)](#DataConfiguration)
+- [Web Platform](#web-platform)
+- [Grapes Detector](#grapes-detector)
+- [Bunch Detector](#bunch-detector)
+- [Bunch Counter](#bunch-counter)
+- [Installation](#installation)
+- [Data Configuration (images, labels)](##DataConfiguration)
 - [Training Guide](#TrainingGuide)
 - [Inference Guide](#InferenceGuide)
 - [Result](#Result)
 - [Metric Table](#MetricTable)
 
-<p>
-  <h2> Deep Learning components</h2>
+# Web Platform
+
+We provide a platform with the ability to organize all the relevant information on your crops and extract useful data that allows you to plan and make more informed decisions. This component is better described [here](https://github.com/eddyerach/AustralFalcon_grapes/tree/main/web_platform).
+
+<p align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/web_platform/imgs/login.png" width="640" alt="Platform Login"/>
 </p>
 
-Our solution incorporates two Deep Learning algorithms for the detection and subsequent counting of clusters and grapes. These algorithms apply instance segmentation through a mask r-cnn neural network and were built using Meta's Detectron2 platform.
 
+# Grapes Detector
+Two Deep Learning models to detect two different variantes of grapes. These models were trained with rotation augmentations to guarantee its robustness.
 
+This component is better described here.
 
 <p float="center" align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg" width="640" height"360"/>
   <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/v1_dataset_60.jpg" height="360"/> 
   <div class="caption" float="center" align="center">Bunch and Grapes Detection</div>
 </p>
 
 <p align="center">
-  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_and_regression.png" alt="Grape counting prec"/>
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/grapes_detection_and_regression.png" width="640" alt="Grape counting prec"/>
 </p>
+
+
+# Bunch Detector
+
+Deep Learning model with the ability to detect grape clusters in plants. The detection is performed using instance segmentation through a mask r-cnn neural network. It was implemented using the Meta Detectron2 framework and different data augmentation techniques were used to guarantee a robust model capable of offering good detection accuracy in different image or video capture conditions.
+
+This component is better detailed here.
+
+# Bunch Counter
+
+The cluster counter is a Deep Learning system that takes the detections of the cluster detector and feeds it into a tracking algorithm, thus allowing the clusters to be identified in a video and then counted.
+
+The tracker used is a variant of DeepSort and the counting algorithm consists of a heuristic based on line crossings.
+
+
+
+<p float="center" align="center">
+  <img src="https://github.com/eddyerach/AustralFalcon_grapes/blob/main/imgs/Hilera_2_2_37_1_frame4320.jpg" width="640" height"360"/>
+  <div class="caption" float="center" align="center">Bunch and Grapes Detection</div>
+</p>
+
+
 
 # Grape bunch detector
 
