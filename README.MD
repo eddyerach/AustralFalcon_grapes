@@ -36,10 +36,21 @@ We provide a platform with the ability to organize all the relevant information 
 
 
 # Grapes Detector
+This component consists of a Deep Learning model with the ability to detect grapes in a bunch. This model was trained with a dataset with gyration increases to guarantee its robustness.
+
+This component is better described here
+
 # Bunch Detector
+
+Deep Learning model with the ability to detect grape clusters in plants. The detection is performed using instance segmentation through a mask r-cnn neural network. It was implemented using the Meta Detectron2 framework and different data augmentation techniques were used to guarantee a robust model capable of offering good detection accuracy in different image or video capture conditions.
+
+This component is better detailed here.
+
 # Bunch Counter
 
-Our solution incorporates two Deep Learning algorithms for the detection and subsequent counting of clusters and grapes. These algorithms apply instance segmentation through a mask r-cnn neural network and were built using Meta's Detectron2 platform.
+The cluster counter is a Deep Learning system that takes the detections of the cluster detector and feeds it into a tracking algorithm, thus allowing the clusters to be identified in a video and then counted.
+
+The tracker used is a variant of DeepSort and the counting algorithm consists of a heuristic based on line crossings.
 
 
 
