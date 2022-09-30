@@ -56,23 +56,23 @@ respectively.
 ## Set docker container
 Pull docker container from Docker Hub 
 ```http
-  python3 train.py
+  sudo docker pull eddyerach1/detectron2_banano_uvas:latest
 
 ```
 Run docker container from terminal
 ```http
-  sudo docker run detectron2
+  sudo docker run --gpus all -it -v /home/grapes:/shared  --name detectron2_grapes
 
 ```
 
 Start docker container from terminal
 ```http
-  sudo docker start detectron2
+  sudo docker start detectron2_grapes
 
 ```
 Enter to docker container from terminal
 ```http
-  sudo docker exec -it detectron2 bash
+  sudo docker exec -it detectron2_grapes bash
 
 ```
 
@@ -136,8 +136,8 @@ Go to the path inside docker where the script **inference.py** is located and ru
 
 | Bounding Box      | Color                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Label | ![](https://via.placeholder.com/10/0000FF?text=+) | 
-| Detection | ![](https://via.placeholder.com/10/FF0000?text=+) |
+| Label | ![](https://via.placeholder.com/15/0000FF?text=+) | 
+| Detection | ![](https://via.placeholder.com/15/FF0000?text=+) |
 
 ## Appendix
 
